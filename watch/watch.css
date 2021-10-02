@@ -1,0 +1,34 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-image: url(https://glassgenerator.netlify.app/assets/images/bg-default-04.jpg); 
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+#watch{
+    width: 500px;
+    height: 200px;
+    margin: 140px auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 61px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0,89,255, 0);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 4px rgba(255,255,255,0.4) solid;
+    border-bottom: 4px rgba(40,40,40,0.35) solid;
+    border-right: 4px rgba(40,40,40,0.35) solid;
+}
+#watch span{
+font-size: 50px;
+font-weight: bold;
+color: black;
+}
